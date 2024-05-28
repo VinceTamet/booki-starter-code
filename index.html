@@ -19,42 +19,43 @@
         <!-- HEADER -->
         <header class="header">
             <div class="logo">
-                <img src="images/logo/Booki.png" alt="Logo Booki" style="width: 61px; height: 19px;">
+                <img src="images/logo/Booki.png" alt="Logo Booki">
             </div>
-            <div class="navigation">
-                <div class="host-header">Hébergements</div>
-                <div class="activities-header">Activités</div>
-            </div>
+            <nav class="navigation">
+                <a href="#hebergements-id" class="host-header">Hébergements</a>
+                <a href="#activities-id" class="activities-header">Activités</a>
+            </nav>
         </header>
 
+        <!-- MAIN -->
         <main class="main">
             <!-- HEADLINE -->
             <div class="headline">
-                <h2 class="headline-title">Trouvez votre hébergement<br class="break-small-screen"> pour des vacances de rêve</h2>
+                <h1 id="headline-title">Trouvez votre hébergement pour des vacances de rêve</h2>
                 <div class="headline-subtitle">En plein centre-ville ou en pleine nature</div>
             </div>
 
             <!-- SEARCHBAR -->
-            <div id="search-bar">
+            <form id="search-bar">
                 <label for="search-input" id="search-logo"><i class="fa-solid fa-location-dot"></i></label>
                 <input type="search" name="search" id="search-input" placeholder="   Marseille, France">
-                <button id="search-button">
+                <button id="search-button" class="button">
                     <span class="search-text">Rechercher</span>
                     <i class="fa-solid fa-magnifying-glass search-icon"></i>
                 </button>
-            </div>
+            </form>
 
             <!-- FILTERBAR -->
             <section class="filters">
                 <p id="filter-label">Filtres</p>
                 <div class="filter-buttons">
-                    <button class="filter" id="eco-button"><span><i class="fa-solid fa-money-bill-wave"></i></span> <span
+                    <button class="filter button" id="eco-button"><span><i class="fa-solid fa-money-bill-wave"></i></span> <span
                             class="filter-span"></span>Économique</button>
-                    <button class="filter" id="fam-button"><span><i class="fa-solid fa-person"></i></span> <span
-                            class="filter-span"></span>Familial</button>
-                    <button class="filter" id="rom-button"><span><i class="fa-solid fa-heart"></i></span> <span
+                    <button class="filter button" id="fam-button"><span><i class="fa-solid fa-person"></i></span> <span
+                            class="filter-span button"></span>Familial</button>
+                    <button class="filter button" id="rom-button"><span><i class="fa-solid fa-heart"></i></span> <span
                             class="filter-span"></span>Romantique</button>
-                    <button class="filter" id="pep-button"><span><i class="fa-solid fa-fire"></i></span> <span
+                    <button class="filter button" id="pep-button"><span><i class="fa-solid fa-fire"></i></span> <span
                             class="filter-span"></span>Nos pépites</button>
                 </div>
             </section>
@@ -71,7 +72,7 @@
             <div class="hebergements-and-populaires">
 
                 <!-- SECTION HEBERGEMENTS -->
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements-id">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébérgements à Marseille</h2>
                     </div>
@@ -101,7 +102,6 @@
 
                         <!-- IMAGE 2 -->
                         <a href="#">
-
                             <article class="card">
                                 <img src="images/hebergements/febrian-zakaria.jpg"
                                     alt="Photo montrant la chambre avec deux lits et une fenêtre">
@@ -289,7 +289,7 @@
             </div>
 
             <!-- ACTIVITES -->
-            <section class="activities">
+            <section class="activities" id="activities-id">
                 <div class="activities-title">
                     <h2 class="section-title">Activités à Marseille</h2>
                 </div>
