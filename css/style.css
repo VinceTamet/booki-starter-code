@@ -712,8 +712,7 @@ a {
     }
 
     .hebergements-cards {
-        width: auto;
-        grid-template-columns: 90%;
+        grid-template-columns: 100%;
     }
 
     .hebergements-cards .card {
@@ -723,8 +722,7 @@ a {
     /* Activities */
 
     .activities {
-        /* padding-top: 1%; */
-        height: 950px;
+        height: 925px;
     }
 
     .activities-card {
@@ -734,19 +732,20 @@ a {
     }
 
     .activities-card .card {
-        width: 90%;
-        height: 160px;
+        width: 100%;
+        height: 150px;
         padding-bottom: 30px;
     }
 
-    .activities-card .card .img {
+    .activities-card img {
         width: 100%;
+        height: 85%;
     }
 
     /* Footer */
 
     .footer {
-        /* width: 100%; */
+
         grid-template-columns: 75%;
         padding-bottom: 25px;
     }
