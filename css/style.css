@@ -568,7 +568,7 @@ a {
         position: absolute;
         top: 37px;
         left: 0;
-        width: 100vw;
+        width: 50vw;
         height: 2px;
         background-color: var(--main-bg-color);
     }
